@@ -61,6 +61,11 @@ dependencies {
     implementation("androidx.compose.ui:ui:1.6.0")
     implementation("androidx.compose.material:material:1.6.0")
     implementation("androidx.activity:activity-compose:1.8.0")
+    
+    // Lifecycle components for ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
 
-    implementation("io.agora:beautyapi:1.0.0")
+    // Additional dependencies for recording and streaming
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
